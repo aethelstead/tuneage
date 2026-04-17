@@ -1,39 +1,45 @@
 ---
-const { frontmatter } = Astro.props;
+import { Content, frontmatter } from "../content/links.md";
 ---
 
-<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Tuneage</title>
-	</head>
-	<body>
-		<a href="https://www.youtube.com/watch?v=nh-2zC1xcEY&list=PL-Ha54QFPaStOB3U0vNJga8jg6YNYi5bK&index=2" target="_blank"><img src="http://img.youtube.com/vi/732eaa02-453b-435b-9d89-b022ac7b57f10.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-		<!--<slot />-->
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>{frontmatter.title}</title>
+  </head>
+  <body>
+    <div>
+      <span>{frontmatter.title}</span>
+      <Content />
+    </div>
+  </body>
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+  body {
+    background-color: white;
+    color: black;
+  }
 
-	.flex-row {
-		display: flex;
-		flex-direction: row;
-	}
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #1a1a1a;
+      color: white;
+    }
+  }
+  /*
+  .body {
+    width: 100%;
+    height: 100%;
+  }
 
-	.flex-col {
-		display: flex;
-		flex-direction: column;
-	}
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }*/
 </style>
