@@ -1,33 +1,41 @@
 ---
-import { Content, frontmatter } from "../content/links.md";
+//import { Content, frontmatter } from "../content/links.md";
+const posts = Object.values(
+    import.meta.glob("../content/*.md", { eager: true }),
+);
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>{frontmatter.title}</title>
-  </head>
-  <body>
-    <div>
-      <span>{frontmatter.title}</span>
-      <Content />
-    </div>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <title>Tuneage</title>
+    </head>
+    <body>
+        <div>
+            {
+                posts.map(
+                    (post) => 
+                    <h3>{post.frontmatter.title}</h3>
+                    <post.Content />
+                )
+            }
+        </div>
+    </body>
 </html>
 
 <style>
-  body {
-    background-color: white;
-    color: black;
-  }
-
-  @media (prefers-color-scheme: dark) {
     body {
-      background-color: #1a1a1a;
-      color: white;
+        background-color: white;
+        color: black;
     }
-  }
-  /*
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #1a1a1a;
+            color: white;
+        }
+    }
+    /*
   .body {
     width: 100%;
     height: 100%;
