@@ -1,5 +1,7 @@
 ---
+layout: ../layouts/LinkPage.astro
 title: "Ty the Tasmanian Tiger"
+
 ---
 
 [Rainbow Cliffs (1HR Looped) - Ty the Tasmanian Tiger Music](https://www.youtube.com/watch?v=FXI2fHAwdck&list=PL-Ha54QFPaSu2nzERaWbQhhjHSatrqrlJ&index=1) \

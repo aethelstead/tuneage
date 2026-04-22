@@ -1,5 +1,6 @@
 ---
-title: "Zelda?"
+layout: ../layouts/LinkPage.astro
+title: "Zelda"
 ---
 
 ### Zelda
@@ -10,4 +11,4 @@ title: "Zelda?"
 [Legend of Zelda, The (NES) Music - Ending Theme](https://www.youtube.com/watch?v=_2sQKNGcp2I&list=PL71E19E7A8803384C&index=12) \
 
 ### Zelda2
-[Zelda II - The Adventure of Link (NES) Music - Title Theme](https://www.youtube.com/watch?v=B2zxGm4cUB4&list=PL0ECC56A72000EB97) \
+[Zelda II - The Adventure of Link (NES) Music - Title Theme](https://www.youtube.com/watch?v=B2zxGm4cUB4&list=PL0ECC56A72000EB97)

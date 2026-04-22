@@ -1,5 +1,7 @@
 ---
+layout: ../layouts/LinkPage.astro
 title: "Misc."
+
 ---
 
 ["Yma o hyd" - Welsh Nationalist Song](https://www.youtube.com/watch?v=fkBQAvAFjus&list=RDfkBQAvAFjus&start_radio=1) \

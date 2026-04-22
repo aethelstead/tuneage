@@ -1,5 +1,7 @@
 ---
+layout: ../layouts/LinkPage.astro
 title: "Kingdom Hearts"
+
 ---
 
 

@@ -1,25 +1,15 @@
 ---
-//import { Content, frontmatter } from "../content/links.md";
-const posts = Object.values(
-    import.meta.glob("../content/*.md", { eager: true }),
-);
+const {frontmatter} = Astro.props;
+import NavBar from "../components/NavBar.astro";
 ---
-
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf-8" />
-        <title>Tuneage</title>
+
     </head>
     <body>
-        <div>
-            {
-                posts.map(
-                    (post) => 
-                    <h3>{post.frontmatter.title}</h3>
-                    <post.Content />
-                )
-            }
-        </div>
+        <NavBar />
+        <h1>{frontmatter.title}</h1>
+        <slot />
     </body>
 </html>
 

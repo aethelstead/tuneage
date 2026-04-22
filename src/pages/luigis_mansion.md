@@ -1,5 +1,7 @@
 ---
+layout: ../layouts/LinkPage.astro
 title: "Luigi's Mansion"
+
 ---
 
 [E. Gadd's Lab (1HR Looped) - Luigi's Mansion Music](https://www.youtube.com/watch?v=nh-2zC1xcEY&list=PL-Ha54QFPaStOB3U0vNJga8jg6YNYi5bK&index=2) \

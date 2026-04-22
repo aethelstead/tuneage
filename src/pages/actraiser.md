@@ -1,5 +1,7 @@
 ---
+layout: ../layouts/LinkPage.astro
 title: "Actraiser"
+
 ---
 
 [ActRaiser - Birth of the People (Extended)](https://www.youtube.com/watch?v=u1g0W9ukAuo&list=RDu1g0W9ukAuo&start_radio=1) \
