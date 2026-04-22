@@ -44,10 +44,34 @@ hr {
 
 body {
     font-family: system-ui, sans-serif;
+    font-size: large;
+
+    margin: 0;
 }
 
+p {
+    margin: 0;
+}
 
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
 
+header {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 1rem;
+}
+
+main {
+    margin: 1rem;
+}
+
+/*
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -64,4 +88,4 @@ body {
 
 .align-center {
     align-items: center;
-}
+}*/

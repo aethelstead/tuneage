@@ -10,7 +10,9 @@ import NavBar from "../components/NavBar.astro";
     <body>
         <NavBar />
         <hr />
-        <h1>{frontmatter.title}</h1>
-        <slot />
+        <main>
+        <!--<h2>{frontmatter.title}</h2>-->
+            <slot />
+        </main>
     </body>
 </html>

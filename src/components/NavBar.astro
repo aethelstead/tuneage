@@ -8,8 +8,8 @@ const posts = Object.entries(
 const { to } = Astro.props;
 ---
 
-<div style="display: flex; flex-direction: column;">
+<header>
     {posts.map((post) =>
     <a href={`/tuneage/${post.slug}`}>{post.title}</a>
     )}
-</div>
+</header>

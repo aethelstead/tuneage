@@ -4,4 +4,6 @@ title: "Monkey Island"
 
 ---
 
+### Curse of Monkey Island
+
 []()
