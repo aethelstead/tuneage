@@ -4,4 +4,4 @@ title: "Monkey Island"
 
 ---
 
-[]() \
+[]()

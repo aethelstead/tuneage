@@ -1,4 +1,5 @@
 ---
+import '../styles/global.css'; 
 import LinkPage from "../layouts/LinkPage.astro";
 import NavBar from "../components/NavBar.astro";
 
@@ -9,40 +10,12 @@ const posts = Object.values(
 
 <!doctype html>
 <html lang="en">
-    <head></head>
+    <head>
+        <title>Index | Tuneage</title>
+    </head>
     <body>
         <div>
             <NavBar />
-            <!--<LinkPage />-->
         </div>
     </body>
 </html>
-
-<style>
-    body {
-        background-color: white;
-        color: black;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        body {
-            background-color: #1a1a1a;
-            color: white;
-        }
-    }
-    /*
-  .body {
-    width: 100%;
-    height: 100%;
-  }
-
-  .flex-row {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .flex-col {
-    display: flex;
-    flex-direction: column;
-  }*/
-</style>

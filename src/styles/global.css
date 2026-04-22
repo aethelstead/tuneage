@@ -1,0 +1,67 @@
+:root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --link: #0066cc;
+    --link-visited: #551a8b;
+    --link-hover: #0044aa;
+    --hr: #cccccc;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #1c1a12;
+        --text: #e8e0c0;
+        --link: #f0c040;
+        --link-visited: #c8903a;
+        --link-hover: #ffe080;
+        --hr: #4a4228;
+    }
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a {
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--link-visited);
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--hr);
+}
+
+
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
