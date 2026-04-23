@@ -1,13 +1,74 @@
+/* solar-light
 :root {
-    --bg: #ffffff;
-    --text: #1a1a1a;
-    --link: #0066cc;
-    --link-visited: #551a8b;
-    --link-hover: #0044aa;
-    --hr: #cccccc;
+    --bg: #fdf6e3;
+    --text: #3a3218;
+    --link: #b8860b;
+    --link-visited: #8b5e3c;
+    --link-hover: #d4a017;
+    --hr: #d4c89a;
+}*/
+
+/* plum-light
+:root {
+    --bg: #f8f0ff;
+    --text: #2a1040;
+    --link: #7020b0;
+    --link-visited: #a0408a;
+    --link-hover: #9030d0;
+    --hr: #d4b0e8;
+}*/
+
+/* charcoal-light
+:root {
+    --bg: #f4f4f2;
+    --text: #1c1c1c;
+    --link: #2a6080;
+    --link-visited: #4a5868;
+    --link-hover: #1a80a8;
+    --hr: #b8b8b0;
+}
+/* aqua-light */
+:root {
+    --bg: #f0fafa;
+    --text: #0a2828;
+    --link: #0a8080;
+    --link-visited: #2a6878;
+    --link-hover: #0aa898;
+    --hr: #a0d8d4;
 }
 
+/* forest-light
+:root {
+    --bg: #f2faf0;
+    --text: #142010;
+    --link: #2a7020;
+    --link-visited: #4a6838;
+    --link-hover: #388028;
+    --hr: #a8d0a0;
+}
+/* ember-light
+:root {
+    --bg: #fff8f4;
+    --text: #280e04;
+    --link: #c03010;
+    --link-visited: #903828;
+    --link-hover: #e04820;
+    --hr: #e8c0a8;
+}
+/* slate-light
+:root {
+    --bg: #f0f4f8;
+    --text: #101828;
+    --link: #1848a0;
+    --link-visited: #384870;
+    --link-hover: #2060c0;
+    --hr: #a8bcd0;
+}
+*/
+
 @media (prefers-color-scheme: dark) {
+
+    /* solar-dark
     :root {
         --bg: #1c1a12;
         --text: #e8e0c0;
@@ -15,7 +76,71 @@
         --link-visited: #c8903a;
         --link-hover: #ffe080;
         --hr: #4a4228;
+    }*/
+
+    /* plum-dark
+    :root {
+        --bg: #1a1020;
+        --text: #e8d8f0;
+        --link: #d080f0;
+        --link-visited: #a060c0;
+        --link-hover: #e8a8ff;
+        --hr: #3d2050;
+    }*/
+
+    /* charcoal-dark
+    :root {
+        --bg: #141414;
+        --text: #d8d8d0;
+        --link: #a0c8e0;
+        --link-visited: #7898a8;
+        --link-hover: #c8e4f4;
+        --hr: #303030;
     }
+    /* aqua-dark */
+    :root {
+        --bg: #0a1a1c;
+        --text: #c8f0ee;
+        --link: #30d8c8;
+        --link-visited: #2898a0;
+        --link-hover: #70efe4;
+        --hr: #184848;
+    }
+
+    /* forest-dark
+    :root {
+        --bg: #0e1a0f;
+        --text: #d0e8c8;
+        --link: #60d040;
+        --link-visited: #4a9838;
+        --link-hover: #90f060;
+        --hr: #1e3820;
+    }
+    /* ember-dark
+    :root {
+        --bg: #1a0e08;
+        --text: #f0d8c0;
+        --link: #f06020;
+        --link-visited: #c04818;
+        --link-hover: #ff8c50;
+        --hr: #3a1c0c;
+    }
+    /* slate-dark
+    :root {
+        --bg: #101820;
+        --text: #d0dce8;
+        --link: #6090d0;
+        --link-visited: #4868a0;
+        --link-hover: #88b4f0;
+        --hr: #203040;
+    }
+    */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
@@ -44,12 +169,11 @@ hr {
 
 body {
     font-family: system-ui, sans-serif;
-    font-size: large;
 
-    margin: 0;
-}
 
-p {
+    /* Let the browser chose the font size!
+    font-size: large;*/
+
     margin: 0;
 }
 
@@ -63,29 +187,13 @@ hr {
 header {
     display: flex;
     flex-direction: column;
-    
+
     margin: 1rem;
+
+    max-height: min(20dvh, 120px);
+    overflow-y: auto;
 }
 
 main {
     margin: 1rem;
 }
-
-/*
-.flex-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-col {
-    display: flex;
-    flex-direction: column;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.align-center {
-    align-items: center;
-}*/
