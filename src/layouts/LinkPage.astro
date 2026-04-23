@@ -1,8 +1,9 @@
 ---
-import '../styles/global.css'; 
-const {frontmatter} = Astro.props;
+import "../styles/global.css";
+const { frontmatter } = Astro.props;
 import NavBar from "../components/NavBar.astro";
 ---
+
 <html>
     <head>
         <title>{frontmatter.title} | Tuneage</title>
@@ -11,7 +12,6 @@ import NavBar from "../components/NavBar.astro";
         <NavBar />
         <hr />
         <main>
-        <!--<h2>{frontmatter.title}</h2>-->
             <slot />
         </main>
     </body>

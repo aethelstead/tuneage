@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/LinkPage.astro
-title: "Rayman"
+title: "Spyro"
 
 ---
 

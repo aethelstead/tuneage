@@ -8,7 +8,7 @@
     --hr: #d4c89a;
 }*/
 
-/* plum-light
+/* plum-light */
 :root {
     --bg: #f8f0ff;
     --text: #2a1040;
@@ -16,7 +16,7 @@
     --link-visited: #a0408a;
     --link-hover: #9030d0;
     --hr: #d4b0e8;
-}*/
+}
 
 /* charcoal-light
 :root {
@@ -27,7 +27,7 @@
     --link-hover: #1a80a8;
     --hr: #b8b8b0;
 }
-/* aqua-light */
+/* aqua-light 
 :root {
     --bg: #f0fafa;
     --text: #0a2828;
@@ -35,7 +35,7 @@
     --link-visited: #2a6878;
     --link-hover: #0aa898;
     --hr: #a0d8d4;
-}
+}*/
 
 /* forest-light
 :root {
@@ -78,7 +78,7 @@
         --hr: #4a4228;
     }*/
 
-    /* plum-dark
+    /* plum-dark */
     :root {
         --bg: #1a1020;
         --text: #e8d8f0;
@@ -86,7 +86,7 @@
         --link-visited: #a060c0;
         --link-hover: #e8a8ff;
         --hr: #3d2050;
-    }*/
+    }
 
     /* charcoal-dark
     :root {
@@ -97,7 +97,7 @@
         --link-hover: #c8e4f4;
         --hr: #303030;
     }
-    /* aqua-dark */
+    /* aqua-dark
     :root {
         --bg: #0a1a1c;
         --text: #c8f0ee;
@@ -105,7 +105,7 @@
         --link-visited: #2898a0;
         --link-hover: #70efe4;
         --hr: #184848;
-    }
+    }*/
 
     /* forest-dark
     :root {
@@ -115,7 +115,8 @@
         --link-visited: #4a9838;
         --link-hover: #90f060;
         --hr: #1e3820;
-    }
+    }*/
+
     /* ember-dark
     :root {
         --bg: #1a0e08;
@@ -125,6 +126,7 @@
         --link-hover: #ff8c50;
         --hr: #3a1c0c;
     }
+
     /* slate-dark
     :root {
         --bg: #101820;
@@ -133,8 +135,8 @@
         --link-visited: #4868a0;
         --link-hover: #88b4f0;
         --hr: #203040;
-    }
-    */
+    } */
+
 }
 
 *,
@@ -191,7 +193,7 @@ header {
 
     margin: 1rem;
 
-    max-height: min(20dvh, 120px);
+    max-height: 12rem;
 
     overflow-y: auto;
     scrollbar-width: thin !important;
@@ -203,13 +205,8 @@ main {
 }
 
 
-/* Scary resizing media query stuff: */
-body {
-    background-color: green;
-}
+body {}
 
 @media (min-width: 1100px) {
-    body {
-        background-color: red;
-    }
+    body {}
 }
