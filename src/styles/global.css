@@ -166,7 +166,6 @@ hr {
 }
 
 
-
 body {
     font-family: system-ui, sans-serif;
 
@@ -175,6 +174,8 @@ body {
     font-size: large;*/
 
     margin: 0;
+
+    scrollbar-width: thin !important;
 }
 
 hr {
@@ -191,9 +192,24 @@ header {
     margin: 1rem;
 
     max-height: min(20dvh, 120px);
+
     overflow-y: auto;
+    scrollbar-width: thin !important;
+    scrollbar-color: var(--text) var(--bg) !important;
 }
 
 main {
     margin: 1rem;
+}
+
+
+/* Scary resizing media query stuff: */
+body {
+    background-color: green;
+}
+
+@media (min-width: 960px) {
+    body {
+        background-color: red;
+    }
 }
