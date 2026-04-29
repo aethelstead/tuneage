@@ -4,10 +4,14 @@ title: "Spyro"
 
 ---
 
+### Spyro
+[Spyro the Dragon Soundtrack - Ice Carven](https://www.youtube.com/watch?v=ZoIgMfMfkgY&list=RD4NiLa8MRzYI&index=4) \
+
 ### Spyro 2
 [Spyro 2 - Ripto's Rage! OST: Summer Forest](https://www.youtube.com/watch?v=JSDOCaUhDHA&list=PL8F255D9CF7D7A1E0) \
 [Spyro 2 - Ripto's Rage! OST: Gateway to Glimmer Forest](https://www.youtube.com/watch?v=PEM-pYocKnI&list=PL8F255D9CF7D7A1E0&index=3) \
-[Spyro 2 - Ripto's Rage! OST: Hurricos](https://www.youtube.com/watch?v=fetkAVhvFDo&list=PL8F255D9CF7D7A1E0&index=7)
+[Spyro 2 - Ripto's Rage! OST: Hurricos](https://www.youtube.com/watch?v=fetkAVhvFDo&list=PL8F255D9CF7D7A1E0&index=7) \
+[Spyro 2 - Ripto's Rage! OST: Scorch](https://www.youtube.com/watch?v=BIeMiLFSYng&list=RD4NiLa8MRzYI&index=5) \
 
 ### Spyro: Enter the Dragonfly
 
