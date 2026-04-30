@@ -10,7 +10,7 @@ sections:
       - https://www.youtube.com/watch?v=PEM-pYocKnI&list=PL8F255D9CF7D7A1E0&index=3
       - https://www.youtube.com/watch?v=fetkAVhvFDo&list=PL8F255D9CF7D7A1E0&index=7
       - https://www.youtube.com/watch?v=BIeMiLFSYng&list=RD4NiLa8MRzYI&index=5
-  - title: Spyro: Enter the Dragonfly
+  - title: Spyro Enter the Dragonfly
     links:
       - https://www.youtube.com/watch?v=4NiLa8MRzYI&list=RD4NiLa8MRzYI&start_radio=1
       - https://www.youtube.com/watch?v=7FalxKjkvXQ&list=RD4NiLa8MRzYI&index=10
