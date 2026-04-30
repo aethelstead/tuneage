@@ -1,0 +1,15 @@
+---
+import "../styles/global.css";
+
+import { getCollection } from "astro:content";
+const zgames = await getCollection("games");
+---
+
+<header>
+    {zgames.map((g) => <a href={`/tuneage/games/${g.id}`}>{g.data.title}</a>)}
+</header>
+<hr />
+<main>
+    <img id="ytThumbImg" style="width:256px; height: 192px; float: right;" />
+    <h1></h1>
+</main>
