@@ -1,0 +1,87 @@
+---
+import "../../styles/global.css";
+
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+    const games = await getCollection("games");
+
+    return games.map((game) => ({
+        params: { slug: game.id },
+        props: { game },
+    }));
+}
+
+const { game } = Astro.props;
+
+async function fetchYoutubeVideoOembed(url: string) {
+    const res = await fetch(
+        `https://www.youtube.com/oembed?url=${url}&format=json`,
+    );
+    return res.json();
+}
+
+const sectionsWithData = await Promise.all(
+    game.data.sections.map(async (section) => {
+        const links = await Promise.all(
+            section.links.map(async (link) => {
+                const data = await fetchYoutubeVideoOembed(link);
+                return {
+                    url: link,
+                    title: data.title,
+                    thumbnail: data.thumbnail_url,
+                };
+            }),
+        );
+
+        return {
+            ...section,
+            links,
+        };
+    }),
+);
+
+const zgames = await getCollection("games");
+---
+
+<header>
+    {zgames.map((g) => <a href={`/tuneage/games/${g.id}`}>{g.data.title}</a>)}
+</header>
+<hr />
+<main>
+    <img id="ytThumbImg" style="width:256px; height: 192px; float: right;" />
+    <h1>{game.data.title}</h1>
+
+    <!-- Loop through sections -->
+    {
+        sectionsWithData.map((section) => (
+            <section>
+                <h3>{section.title}</h3>
+
+                <ul>
+                    {section.links.map((link) => (
+                        <li>
+                            <a
+                                class="a-link"
+                                href={link.url}
+                                target="_blank"
+                                data-uri={link.thumbnail}
+                            >
+                                {link.title}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+        ))
+    }
+</main>
+
+<script>
+    const img = document.getElementById("ytThumbImg") as any;
+    document.querySelectorAll(".a-link").forEach((link) => {
+        link.addEventListener("mouseenter", (e: any) => {
+            img!.src = e.target.dataset.uri;
+        });
+    });
+</script>
