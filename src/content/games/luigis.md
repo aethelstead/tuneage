@@ -7,4 +7,6 @@ sections:
       - https://www.youtube.com/watch?v=QoDiUZ4eYZw&list=PL-Ha54QFPaStOB3U0vNJga8jg6YNYi5bK&index=5
       - https://www.youtube.com/watch?v=BB7FoiONBlI&list=PL-Ha54QFPaStOB3U0vNJga8jg6YNYi5bK&index=6
       - https://www.youtube.com/watch?v=CiKERX-4rmA&list=PL-Ha54QFPaStOB3U0vNJga8jg6YNYi5bK&index=8
+      - https://www.youtube.com/watch?v=Vvp3Rv2yCl8&list=RDVvp3Rv2yCl8&start_radio=1
+      - https://www.youtube.com/watch?v=xype8GOHZpA&list=RDjn1myJ0N4vA&index=6
 ---
