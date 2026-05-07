@@ -11,5 +11,4 @@ sections:
     links:
       - https://www.youtube.com/watch?v=eTpJUzOhOTo&list=PL79DA330B8AE4C836
       - https://www.youtube.com/watch?v=6h62e6PA7ZE&list=RD6h62e6PA7ZE&start_radio=1
-      - 
 ---
