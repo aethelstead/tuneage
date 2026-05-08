@@ -1,5 +1,5 @@
 ---
-title: Misc. 8-bit
+title: 16-bit
 sections:
   - title: Amynedd
     links:

@@ -1,5 +1,5 @@
 ---
-title: Misc. 8-bit
+title: 8-bit
 sections:
   - title: Kickle Cubicle (NES)
     links:
