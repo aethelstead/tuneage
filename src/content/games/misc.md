@@ -9,7 +9,6 @@ sections:
       - https://www.youtube.com/watch?v=Jxv_DU9nR4E
       - https://www.youtube.com/watch?v=TMSx95iU-yQ&list=RDTMSx95iU-yQ&start_radio=1
       - https://www.youtube.com/watch?v=c-QrPT2yuCw
-      - https://www.youtube.com/results?search_query=van+damme+spiritual+training
       - https://www.youtube.com/watch?v=vNuVifA7DSU
       - https://www.youtube.com/watch?v=QCZDx0dlDws&list=RDQCZDx0dlDws&start_radio=1
       - https://www.youtube.com/watch?v=-5rAjOjTGtc&list=RDu1g0W9ukAuo&index=10
