@@ -5,25 +5,42 @@ import { getCollection } from "astro:content";
 const zgames = await getCollection("games");
 ---
 
-<script is:inline>
-    const themes = [
-        'theme-solar', // 0 - Sun
-        'theme-charcoal', // 1 - Mon
-        'theme-plum', // 2 - Tue
-        'theme-aqua', // 3 - Wed
-        'theme-forest', // 4 - Thu
-        'theme-ember', // 5 - Fri
-        'theme-slate', // 6 - Sat
-    ];
-    const dow = (new Date()).getDay();
-    const classname = themes[6];
-    document.documentElement.classList.add(classname);
-</script>
-<header>
-    {zgames.map((g) => <a href={`/tuneage/games/${g.id}`}>{g.data.title}</a>)}
-</header>
-<hr />
-<main>
-    <img id="ytThumbImg" style="width:256px; height: 192px; float: right;" />
-    <h1></h1>
-</main>
+<head>
+    <title>Index | Tuneage</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            {
+                zgames.map((g) => (
+                    <nav>
+                        <a href={`/tuneage/games/${g.id}`}>{g.data.title}</a>
+                    </nav>
+                ))
+            }
+        </div>
+    </header>
+    <main>
+        <article>
+            <img
+                id="ytThumbImg"
+                style="width:512px; height: 384px; float: right;"
+            />
+        </article>
+    </main>
+
+    <script is:inline>
+        const themes = [
+            "theme-solar", // 0 - Sun
+            "theme-charcoal", // 1 - Mon
+            "theme-plum", // 2 - Tue
+            "theme-aqua", // 3 - Wed
+            "theme-forest", // 4 - Thu
+            "theme-ember", // 5 - Fri
+            "theme-slate", // 6 - Sat
+        ];
+        const dow = new Date().getDay();
+        const classname = themes[6];
+        document.documentElement.classList.add(classname);
+    </script>
+</body>

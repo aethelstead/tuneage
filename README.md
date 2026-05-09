@@ -6,7 +6,7 @@ This is intended as a personal link page site, mostly featuring links to old vid
 ### TODO
 - Make the image showing the video thumbnail turn into an embedded YT video when the link is clicked, instead of
   navigating to it from a new browser tab.
-- Vary theme based on day of the week. E.g: Monday-Solar, Tuesday-Charcoal, Wednesday-Lunar etc.
+- ~~Vary theme based on day of the week. E.g: Monday-Solar, Tuesday-Charcoal, Wednesday-Lunar etc.~~
 
 ### Project Structure
 
