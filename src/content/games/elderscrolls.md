@@ -1,7 +1,7 @@
 ---
-title: The Elder Scrolls
+title: Elder Scrolls
 sections:
-  - title: TES Arena (CD)
+  - title: "TES: Arena (CD)"
     links:
       - https://www.youtube.com/watch?v=EVTrCwv1yi4&list=PLThaHokEd5yZzNY-6dq66PgGuLemQ22VR
       - https://www.youtube.com/watch?v=jLkjuJ0mRm0&list=PLThaHokEd5yZzNY-6dq66PgGuLemQ22VR&index=2
@@ -16,7 +16,7 @@ sections:
       - https://www.youtube.com/watch?v=MmHAKB-zk9s&list=PLThaHokEd5yZzNY-6dq66PgGuLemQ22VR&index=13
       - https://www.youtube.com/watch?v=hBEESNzDkQ4&list=PLThaHokEd5yZzNY-6dq66PgGuLemQ22VR&index=23
       - https://www.youtube.com/watch?v=iGBNZjJhvRg&list=PLThaHokEd5yZzNY-6dq66PgGuLemQ22VR&index=24
-  - title: TES Arena (Floppy)
+  - title: "TES: Arena (Floppy)"
     links:
       - https://www.youtube.com/watch?v=z5t-V9A48DE&list=PL-ACqe7xAdNjgUTQ579C-J7WPGszZWdU4&index=2
 ---

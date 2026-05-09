@@ -77,6 +77,21 @@ const zgames = await getCollection("games");
     }
 </main>
 
+<script is:inline>
+    const themes = [
+        'theme-solar', // 0 - Sun
+        'theme-charcoal', // 1 - Mon
+        'theme-plum', // 2 - Tue
+        'theme-aqua', // 3 - Wed
+        'theme-forest', // 4 - Thu
+        'theme-ember', // 5 - Fri
+        'theme-slate', // 6 - Sat
+    ];
+    const dow = (new Date()).getDay();
+    const classname = themes[6];
+    document.documentElement.classList.add(classname);
+</script>
+
 <script>
     const img = document.getElementById("ytThumbImg") as any;
     document.querySelectorAll(".a-link").forEach((link) => {
