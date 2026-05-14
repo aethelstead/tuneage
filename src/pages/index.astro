@@ -40,7 +40,7 @@ const zgames = await getCollection("games");
             "theme-slate", // 6 - Sat
         ];
         const dow = new Date().getDay();
-        const classname = themes[6];
+        const classname = themes[dow];
         document.documentElement.classList.add(classname);
     </script>
 </body>
