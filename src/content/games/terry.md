@@ -1,7 +1,7 @@
 ---
 title: Terry
 sections:
-  - title: Terry Davis (Temple OS)
+  - title: "Terry Davis (Temple OS)"
     links:
       - https://www.youtube.com/watch?v=DmV49ogMDEI
       - https://www.youtube.com/watch?v=liMUF306cHs&list=RDliMUF306cHs&start_radio=1
