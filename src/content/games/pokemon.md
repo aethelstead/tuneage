@@ -1,7 +1,7 @@
 ---
 title: Pokemon
 sections:
-  - title: Pokemon Colosseum
+  - title: "Pokemon Colosseum"
     links:
       - https://www.youtube.com/watch?v=cKo3iqUlEkk&list=PLYDdhHVGYrjKWNbIbG61tL7ss1ONauxEr&index=22
       - https://www.youtube.com/watch?v=HeIhzHCr2GA&list=PLYDdhHVGYrjKWNbIbG61tL7ss1ONauxEr&index=31

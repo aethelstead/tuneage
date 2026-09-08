@@ -1,5 +1,5 @@
 ---
-title: Elder Scrolls
+title: Half-Life
 sections:
   - title: "Half-Life"
     links:

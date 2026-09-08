@@ -1,7 +1,7 @@
 ---
 title: Hydlide
 sections:
-  - title: Virtual Hydlide
+  - title: "Virtual Hydlide"
     links:
       - https://www.youtube.com/watch?v=E2Rlt9MXSZQ&list=PLfUvsxulQQd8eihfyZbKu6w-FlRysXU_7&index=2
       - https://www.youtube.com/watch?v=eFolZjAe-f4&list=PLfUvsxulQQd8eihfyZbKu6w-FlRysXU_7&index=2

@@ -1,7 +1,7 @@
 ---
 title: Ultima
 sections:
-  - title: Ultima VI Remastered
+  - title: "Ultima VI Remastered"
     links:
       - https://www.youtube.com/watch?v=pLf1MeWUgZQ&list=PLFB7GcAB-zPMXmUPt2iMdNBduC1li4moa&index=2
       - https://www.youtube.com/watch?v=moQzspT3N4U&list=PLFB7GcAB-zPMXmUPt2iMdNBduC1li4moa&index=1
@@ -10,7 +10,7 @@ sections:
       - https://www.youtube.com/watch?v=-ng1tUorW2w&list=PLFB7GcAB-zPMXmUPt2iMdNBduC1li4moa&index=6
       - https://www.youtube.com/watch?v=3iFIUJ9HZFk&list=PLFB7GcAB-zPMXmUPt2iMdNBduC1li4moa&index=7
       - https://www.youtube.com/watch?v=QTqC1lAtanI&list=PLFB7GcAB-zPMXmUPt2iMdNBduC1li4moa&index=9
-  - title: Ultima VI SNES
+  - title: "Ultima VI SNES"
     links:
       - https://www.youtube.com/watch?v=GS9vIyvU6GQ&list=PL6C2B52A06B3AA287&index=2
       - https://www.youtube.com/watch?v=EcRqYgl9688&list=PL6C2B52A06B3AA287&index=5

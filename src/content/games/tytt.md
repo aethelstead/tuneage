@@ -1,7 +1,7 @@
 ---
 title: Ty the Tasmanian Tiger
 sections:
-  - title: Ty the Tasmanian Tiger
+  - title: "Ty the Tasmanian Tiger"
     links:
       - https://www.youtube.com/watch?v=FXI2fHAwdck&list=PL-Ha54QFPaSu2nzERaWbQhhjHSatrqrlJ&index=1
       - https://www.youtube.com/watch?v=Su44_p4dp_g&list=PL-Ha54QFPaSu2nzERaWbQhhjHSatrqrlJ&index=2

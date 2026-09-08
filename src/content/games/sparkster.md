@@ -1,7 +1,7 @@
 ---
 title: Sparkster
 sections:
-  - title: Rocket Knight Adventures
+  - title: "Rocket Knight Adventures"
     links:
       - https://www.youtube.com/watch?v=zg6NL36CbRQ&list=PLyxanYR7UUqrlhLnrD9rE_Lh0f_OaWOE8&index=2
       - https://www.youtube.com/watch?v=zJzvOu0YBSE&list=PLyxanYR7UUqrlhLnrD9rE_Lh0f_OaWOE8&index=3

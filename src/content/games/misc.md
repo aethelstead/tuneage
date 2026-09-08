@@ -1,7 +1,7 @@
 ---
 title: Misc.
 sections:
-  - title: Misc.
+  - title: "Misc."
     links:
       - https://www.youtube.com/watch?v=fkBQAvAFjus&list=RDfkBQAvAFjus&start_radio=1
       - https://www.youtube.com/watch?v=pRnjsJ9WWPI&list=RDpRnjsJ9WWPI&start_radio=1
