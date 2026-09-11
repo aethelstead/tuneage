@@ -11,6 +11,8 @@ sections:
   - title: "Zelda 2: The Adventure of Link"
     links:
       - https://www.youtube.com/watch?v=B2zxGm4cUB4&list=PL0ECC56A72000EB97
+      - https://www.youtube.com/watch?v=RHS5jM6xBHo&list=PL0ECC56A72000EB97&index=2
+      - https://www.youtube.com/watch?v=W-VUVvvlQK8&list=PL0ECC56A72000EB97&index=10
   - title: "Ocarina of Time"
     links:
       - https://www.youtube.com/watch?v=ADGTbRZQgfY&list=PLB-83iBtSN8lv5ArAzGw5nE7CUWfpleMp&index=33
